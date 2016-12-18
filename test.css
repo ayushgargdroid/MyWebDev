@@ -1,0 +1,27 @@
+.title{
+	background-color: rgb(10,212,255);
+	margin-top: 10px;
+	color: white;
+	margin-bottom: 10px;
+	font-family: helvetica;
+	font-size: 48px;
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+}
+.bodymain{
+	margin-top:  10px;
+}
+.screenshot{
+	max-width: 460px;
+	margin-right: 5px;
+}
+.description{
+	margin-left: 5px;
+	max-width: 705px;
+	word-spacing: 7px;
+}
+.app{
+	display: flex;
+	margin-top: 15px;
+}
