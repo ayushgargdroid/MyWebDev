@@ -1,0 +1,132 @@
+html,body,div,a,img,form,button{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+form input{
+    background: transparent;
+    border : none;
+}
+#news a:hover{
+    border-bottom: 5px solid red;
+}
+#sport a:hover{
+    border-bottom: 5px solid yellow;
+}
+#weather a:hover{
+    border-bottom: 5px solid #87CEEB;
+}
+#iplayer a:hover{
+    border-bottom: 5px solid #FFC0CB;
+}
+#tv a:hover{
+    border-bottom: 5px solid black;
+}
+#radio a:hover{
+    border-bottom: 5px solid black;
+}
+#more a:hover{
+    border-bottom: 5px solid black;
+}
+.sizing{
+    box-sizing:border-box;
+}
+.header{
+    float: left;
+    height: 40px;
+    margin-left: 140px;
+    padding-left: 18px;
+    background-color: white;
+}
+.bbc-logo{
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    float: left;
+}
+.sign-in{
+    float:left;
+    height: 100%;
+    padding-right: 57px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+.inner-sign-in{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: 78px;
+    padding-left: 40px;
+    font-weight: bold;
+    border-right: 1px solid #cccccc;
+}
+.header-tabs{
+    height: 100%;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    float: left;
+    border-right: 1px solid #cccccc;
+    font-weight: bold;
+}
+.search-box{
+    height: 24px;
+    width: 200px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: #e4e4e4;
+}
+.brand{
+    background-color: #bb1919;
+    clear:both;
+    height: 92px;
+}
+.local-news{
+    margin-left: 965px;
+}
+.categories-tab{
+    padding-top: 8px;
+}
+.categories-border{
+    border-right: 1px solid white;
+}
+#local-news-button{
+    margin-top: 12px;
+    margin-bottom: 4px;
+    padding-top: 6px;
+    padding-left: 8px;
+    padding-right: 24px;
+    padding-bottom: 3px;
+    background: transparent;
+    border:solid 0.01em rgb(150,150,150);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+#categories-background{
+    background-color: #a91717;
+    height: 40px;
+}
+#categories{
+    height: 100%;
+    margin: 0 auto;
+    width: 800px;
+    font-family: 'Open Sans', sans-serif;
+}
+#search{
+    width: 170px;
+    padding-left: 8px;
+}
+#search-logo{
+    padding-top: 3px;
+
+}

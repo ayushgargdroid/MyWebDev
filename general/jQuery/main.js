@@ -1,0 +1,9 @@
+$("#butt1").click(function(){
+    if($("#text").css("display")=="none")
+        $("#text").fadeIn("slow");
+    else
+        $("#text").fadeOut("slow");
+});
+$("#circle").click(function(){
+    $(this).animate({width:"300px",height:"300px"},2000);
+})
